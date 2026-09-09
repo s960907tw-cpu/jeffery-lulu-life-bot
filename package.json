@@ -1,13 +1,13 @@
 {
   "name": "jeffery-lulu-life-bot",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "private": true,
   "type": "module",
   "description": "Jeffery × LULU LINE life assistant with fast paths and recurring tasks.",
-  "main": "fast-server.js",
+  "main": "bootstrap.js",
   "scripts": {
-    "start": "node fast-server.js",
-    "check": "node --check fast-server.js"
+    "start": "node bootstrap.js",
+    "check": "node --check bootstrap.js"
   },
   "engines": {"node": ">=22"},
   "dependencies": {"express": "5.2.1", "openai": "7.10.0"}
