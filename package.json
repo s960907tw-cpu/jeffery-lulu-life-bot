@@ -1,13 +1,13 @@
 {
   "name": "jeffery-lulu-life-bot",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "type": "module",
-  "description": "Jeffery × LULU shared LINE life assistant with fast-path commands, OpenAI, Google Calendar, Sheets and reminders.",
-  "main": "fast-server.js",
+  "description": "Jeffery × LULU shared LINE life assistant.",
+  "main": "server.js",
   "scripts": {
-    "start": "node fast-server.js",
-    "check": "node --check fast-server.js"
+    "start": "node server.js",
+    "check": "node --check server.js"
   },
   "engines": {
     "node": ">=22"
