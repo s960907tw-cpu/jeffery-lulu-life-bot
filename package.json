@@ -1,0 +1,19 @@
+{
+  "name": "jeffery-lulu-life-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Jeffery × LULU shared LINE life assistant with OpenAI, Google Calendar, Sheets and reminders.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "5.2.1",
+    "openai": "7.10.0"
+  }
+}
